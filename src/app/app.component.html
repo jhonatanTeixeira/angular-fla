@@ -1,0 +1,16 @@
+<h1>Formulario</h1>
+
+<form>
+  Nome
+  <input type="text" name="name" [(ngModel)]="formulario.nome" />
+  <br />
+  <br />
+  Email
+  <input type="email" name="name" [(ngModel)]="formulario.email" />
+  <br />
+  <br />
+  Nascimento
+  <input type="date" name="name" required [(ngModel)]="formulario.nascimento" />
+  <br />
+  <button (click)="cadastrar()">Cadastrar</button>
+</form>
